@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>💖 亲爱的，生日快乐！</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 背景粒子效果 -->
+    <div class="particles-container" id="particles"></div>
+
+    <!-- 主容器 -->
+    <main class="main-container">
+      <!-- 标题区域 -->
+      <header class="hero-section">
+        <h1 class="title">
+          <span class="title-line">Happy Birthday</span>
+          <span class="title-line highlight">我最爱的人</span>
+        </h1>
+        <p class="subtitle">愿你的每一天都如今天般美好 ✨</p>
+      </header>
+
+      <!-- 祝福卡片区域 -->
+      <section class="cards-section">
+        <div class="card" data-card="1">
+          <div class="card-content">
+            <div class="card-icon">🎂</div>
+            <h3>生日快乐</h3>
+            <p>今天是属于你的特殊日子，愿所有的美好都围绕着你</p>
+          </div>
+        </div>
+
+        <div class="card" data-card="2">
+          <div class="card-content">
+            <div class="card-icon">💕</div>
+            <h3>我爱你</h3>
+            <p>每一天都感谢能够遇见你，你是我生命中最珍贵的礼物</p>
+          </div>
+        </div>
+
+        <div class="card" data-card="3">
+          <div class="card-content">
+            <div class="card-icon">🌟</div>
+            <h3>许个愿吧</h3>
+            <p>闭上眼睛，许下你最美好的愿望，我会陪你一起实现</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 互动按钮 -->
+      <section class="interaction-section">
+        <button class="magic-button" id="surpriseBtn">
+          <span>点击获得惊喜</span>
+          <div class="button-bg"></div>
+        </button>
+      </section>
+
+      <!-- 隐藏的惊喜内容 -->
+      <section class="surprise-section" id="surpriseSection">
+        <div class="surprise-content">
+          <h2>🎉 特别的话想对你说</h2>
+          <div class="love-message">
+            <p>亲爱的团子，</p>
+            <p>在这个特别的日子里，我想告诉你：</p>
+            <p>你的笑容是我见过最美的风景</p>
+            <p>你的声音是我听过最动听的音乐</p>
+            <p>你的存在让我的世界变得完整</p>
+            <p>愿你永远快乐，永远被爱包围</p>
+            <p class="signature">— 爱你的熊二 💖</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 飘落的心形 -->
+    <div class="hearts-container" id="hearts"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
